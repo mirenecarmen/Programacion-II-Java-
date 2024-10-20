@@ -1,0 +1,40 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>260</x><y>40</y><w>210</w><h>210</h></coordinates><panel_attributes>&lt;&lt;Persona&gt;&gt;
+
+--
+-nombre: String
+-genero : Char
+-edad : int
+-direccion:String
+--
++getNombre():String
++setNombre(String):void
++getGenero():char
++setGenero(char):void
++getEdad():int
++setEdad(int):void
++getDireccion():String
++setDireccion(String):void
+--
+Responsibilities
+-- Resp1
+*-- Resp2*</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>370</y><w>210</w><h>140</h></coordinates><panel_attributes>&lt;&lt;Empleado&gt;&gt;
+
+--
+-idEmpleado : int
+-Sueldo:double
+--
++getIdEmpleado():int
++getSueldo():double
++setSueldo(double):void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>460</x><y>360</y><w>210</w><h>160</h></coordinates><panel_attributes>&lt;&lt;Cliente&gt;&gt;
+--
+-idCliente: int
+_FechaRegistro: Date
+-vip: boolen
+--
++getIdCliente():int
++getFechaRegistro():Date
++setFechaRegistro(Date):void
++idVip(): boolean
++setVip(boolean):void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>290</y><w>260</w><h>30</h></coordinates><panel_attributes>lt=()-</panel_attributes><additional_attributes>240;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>290</y><w>460</w><h>30</h></coordinates><panel_attributes>lt=()-</panel_attributes><additional_attributes>10;10;440;10</additional_attributes></element><element><id>Relation</id><coordinates><x>550</x><y>300</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>300</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>240</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Text</id><coordinates><x>160</x><y>260</y><w>60</w><h>30</h></coordinates><panel_attributes>extends</panel_attributes><additional_attributes></additional_attributes></element><element><id>Text</id><coordinates><x>530</x><y>260</y><w>60</w><h>30</h></coordinates><panel_attributes>extends</panel_attributes><additional_attributes></additional_attributes></element></diagram>
