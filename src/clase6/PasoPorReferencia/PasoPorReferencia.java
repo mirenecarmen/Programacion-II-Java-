@@ -17,7 +17,7 @@ public class PasoPorReferencia {
     }
     /*ahora vamos a crear otro metodo,que será de tipo publico tambien
     el paso por referencia es simplemente que nosotros estamos utilizando la clase persona,y para
-    acceder al objecto y a la clase,el paso por referencia en este caso va a ser a traves de la clase Persona
+    acceder al objecto y a la clase,el paso por referencia en este caso va a ser a traves de la clase clase9.leccion6.domain.Persona
     y vamos a pasarle persona */
     public static void cambiarValor(MetodoPersona persona) { //parametro por referencia
         persona.nombre = "Maria";
