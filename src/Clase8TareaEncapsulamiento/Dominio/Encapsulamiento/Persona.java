@@ -43,6 +43,6 @@ public class Persona {
     }
     /*  TODO ESTO es para apuntar hacia el objeto que queremos instanciar */
     public String ToString(){ //convierrte en una cadena cada atributos
-        return "Persona [nombre :" +this.nombre + ",sueldo: " +this.sueldo + "eliminado "+this.eliminado+"]";
+        return "clase9.leccion6.domain.Persona [nombre :" +this.nombre + ",sueldo: " +this.sueldo + "eliminado "+this.eliminado+"]";
     }
 }

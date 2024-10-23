@@ -14,7 +14,7 @@ public class PersonaPrueba {
 
         System.out.println("persona1:" +persona1.ToString());
 
-        /* tarea: crear otro objeto de tipo Persona,asignar valores de manera inicial
+        /* tarea: crear otro objeto de tipo clase9.leccion6.domain.Persona,asignar valores de manera inicial
         y  imprimir ,luego modificar sus valores y volver a imprimir
          */
         // asignar valores de manera inicial
