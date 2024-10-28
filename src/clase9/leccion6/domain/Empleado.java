@@ -10,12 +10,15 @@ public class Empleado extends Persona {
     private static int contadorEmpleados; //es para incrementar
 
     //Constructor
-
-
-    public Empleado(String nombre, double sueldo) {
-        super(nombre);
+    public Empleado(){
         this.idEmpleado = ++Empleado.contadorEmpleados;
-        this.sueldo = sueldo;
+
+    }
+
+    public Empleado(String nombre, double sueldo, char genero, int edad, String direccion) {
+        super(nombre, genero, edad, direccion); // Llama al constructor de la clase Persona
+        this.idEmpleado = ++Empleado.contadorEmpleados; // Incrementa el contador de empleados
+        this.sueldo = sueldo; // Asigna el sueldo
     }
 
     public int getIdEmpleado() {
